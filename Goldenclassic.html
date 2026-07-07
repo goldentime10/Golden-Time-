@@ -1,0 +1,373 @@
+>><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Golden Time Watches</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+}
+
+/* Navbar */
+
+nav{
+background:black;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:gold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:gold;
+}
+
+/* Hero */
+
+.hero{
+height:90vh;
+
+background:
+linear-gradient(
+rgba(0,0,0,.6),
+rgba(0,0,0,.7)
+),
+
+url("Screenshot_20260628_193118_Google.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+color:gold;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.hero button{
+padding:15px 35px;
+border:none;
+border-radius:40px;
+background:gold;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* Products */
+
+.title{
+text-align:center;
+color:gold;
+font-size:45px;
+margin:60px 0;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+padding:20px;
+}
+
+.card{
+width:320px;
+background:#1a1a1a;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 0 20px rgba(255,215,0,.2);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:350px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+text-align:center;
+}
+
+.card-content h3{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.price{
+color:gold;
+font-size:24px;
+margin-bottom:15px;
+}
+
+.buy{
+display:inline-block;
+padding:15px 30px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+
+background:
+linear-gradient(
+135deg,
+#FFD700,
+#FFB800,
+#D4AF37
+);
+
+color:black;
+}
+
+/* Features */
+
+.features{
+padding:80px 20px;
+text-align:center;
+}
+
+.features h2{
+color:gold;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.feature-box{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.feature{
+width:280px;
+background:#1b1b1b;
+padding:30px;
+border-radius:20px;
+}
+
+.feature h3{
+color:gold;
+margin-bottom:15px;
+}
+
+/* Contact */
+
+.contact{
+text-align:center;
+padding:80px 20px;
+}
+
+.contact h2{
+color:gold;
+margin-bottom:25px;
+}
+
+.whatsapp{
+display:inline-block;
+padding:15px 35px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-size:20px;
+}
+
+/* Footer */
+
+footer{
+background:black;
+padding:25px;
+text-align:center;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+Golden Time
+</div>
+
+<ul>
+<li><a href="#">الرئيسية</a></li>
+<li><a href="#products">الساعات</a></li>
+<li><a href="#contact">تواصل معنا</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<h1>ساعات فاخرة</h1>
+
+<p>
+أناقة وفخامة لكل الأوقات
+</p>
+
+<a href="#products">
+<button>
+تسوق الآن
+</button>
+</a>
+
+</section>
+
+<section id="products">
+
+<h2 class="title">
+أحدث الساعات
+</h2>
+
+<div class="products">
+
+<div class="card">
+
+<img src="Screenshot_20260628_193118_Google.jpg">
+
+<div class="card-content">
+
+<h3>Golden Classic</h3>
+
+<p class="price">
+350 جنيه
+</p>
+
+<a class="buy"
+href="https://wa.me/2001022172688?text=السلام عليكم، أرغب في شراء ساعة Golden Classic وأريد معرفة تفاصيل الشحن والدفع.">
+🛒 اطلب الآن
+</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="Mostafa.jpg">
+
+<div class="card-content">
+
+<h3>Luxury Watch</h3>
+
+<p class="price">
+350 جنيه
+</p>
+
+<a class="buy"
+href="https://wa.me/2001022172688?text=السلام عليكم، أرغب في شراء ساعة Luxury Watch وأريد معرفة تفاصيل الشحن والدفع.">
+🛒 اطلب الآن
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="features">
+
+<h2>
+لماذا تختارنا؟
+</h2>
+
+<div class="feature-box">
+
+<div class="feature">
+<h3>🚚 شحن سريع</h3>
+<p>توصيل لجميع المحافظات</p>
+</div>
+
+<div class="feature">
+<h3>⌚ جودة عالية</h3>
+<p>أفضل الخامات والتشطيبات</p>
+</div>
+
+<div class="feature">
+<h3>🛡 ضمان</h3>
+<p>ضمان على جميع المنتجات</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>
+تواصل معنا
+</h2>
+
+<a class="whatsapp"
+href="https://wa.me/2001022172688">
+واتساب
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Golden Time Watches
+
+</footer>
+
+</body>
+</html
